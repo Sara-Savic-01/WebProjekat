@@ -1,0 +1,1082 @@
+
+/*body{
+    background-image: url(slikica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.kontSalon
+{
+    display: flex;
+    
+    width:100%;
+    height:auto;
+    margin:auto;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    flex-shrink: 0;
+    flex-grow:2;
+    flex:1 0;
+    flex-basis: 200px;
+    align-self: center;
+    
+    
+}
+.Form
+{
+    /*display:flex;*/
+    /*width:auto;
+    /*width:100%;*/
+    /*height:auto;
+    margin:auto;
+    flex-wrap:wrap;
+    flex-shrink: 0;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;*/
+    /*display:flex;
+    width:auto;
+    margin:auto;
+    flex-direction:column;
+    align-items: center;
+    align-self: center;
+    flex-wrap:wrap;
+    flex-shrink: 0;
+    flex-grow:2;
+    flex:1 0;
+    flex-basis: 200px;
+}
+.Termini{
+    display: flex;
+   
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-self: center;
+}
+.ter{
+    display: flex;
+    width:auto;
+    margin:auto;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-self: center;
+    
+}
+.redTermina1{
+    display:flex;
+    /*grid-template-columns: 150px 150px 150px;*/
+    /*grid-template-rows: 50px 50px;*/
+    /*position: relative;
+    left:-50px;*/
+    /*flex-direction:row;
+    /*margin-top:100px;*/
+    /*border: 2px none  rgb(197, 154, 196); ; 
+    flex-basis: 50px;
+    margin:20px;
+    width: 500px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-style:italic;
+    /*flex-grow: 1;
+    flex-shrink: 0;
+    border-radius: 12px;*/
+    /*left:800px;*/
+    /*padding-left: 60px;
+    resize: none;
+    flex-wrap:wrap;
+
+    
+    
+}
+.redTermina
+{
+    /*display: flex;
+    width:auto;
+    margin:auto;
+    right:-200px;
+    flex-direction: column;
+    min-height: 20px;
+    min-width: 80px;
+    /*flex-wrap:wrap;*/
+    /*align-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top:80px;*/
+    
+    /*display: flex;
+    border: 2px none  rgb(197, 154, 196); ; 
+    flex-basis: 50px;
+    margin:20px;
+    width: 500px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-style:italic;
+    /*flex-grow: 1;
+    flex-shrink: 0;*/
+    /*border-radius: 12px;
+    left:600px;
+    resize: none;
+    
+}
+
+.terminKontejner
+{
+   
+    display: flex;
+    /*flex-direction: column;*/
+    /*height:60px;
+    margin:10px;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    /*max-height: 200;*/
+    
+/*}
+/*.brojSalona
+{
+    width:20px;
+}*/
+
+/*label1{
+    margin:3px;
+    font-size:25px;
+    font-style: italic;
+    color:mediumorchid;
+    
+}
+.labelSalon
+{
+    margin:3px;
+    font-size:25px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+    flex-grow:1;
+}
+.Kozmeticari{
+    display:flex;
+    margin:3px;
+    font-size:25px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+    flex-grow:1;
+}
+/*.labelNaslov
+{
+    
+    font-size:25px;
+    font-style: italic;
+    text-align: center;
+    color:mediumorchid;
+    
+}*/
+/*.labelUsluga
+{
+    display:flex;
+    margin:3px;
+    font-size:25px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+    flex-grow:1;
+}
+.labelKozmeticar
+{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+    flex-grow:1;
+}
+.dugmeIzaberiSalon
+{
+    /*display:flex;*/
+    /*width:120px;
+    height:30px;
+    margin-left:20px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+    align-items: center;
+    align-self: center;
+    /*flex-grow:1;*/
+/*}
+.dugmeIzaberiUslugu
+{
+    width:120px;
+    height:30px;
+    margin-left:20px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+    align-self: center;
+    flex-grow:1;
+}
+.l1
+{
+    display:flex;
+    font-size:5px;
+    font-style: italic;
+    
+    color:mediumorchid; 
+}
+.dugmeZakaziteTermin
+{
+    display:flex;
+    width:120px;
+    height:30px;
+    margin-left:47px;    
+    margin-top:5px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+    align-self: center;
+    /*position:static;*/
+    /*flex:1 0;
+    flex-basis: 200px;
+}
+.dugmeZakazi{
+    width:120px;
+    height:30px;
+    margin-left:47px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+    align-self: center;
+
+}
+.dugmeZameni{
+    width:120px;
+    height:30px;
+    margin-left:20px;
+    /*right:600px;*/
+    /*margin-top: 20px;
+    margin-left:47px;
+
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+
+}
+.dugmeOtkazi{
+    width:120px;
+    height:30px;
+    margin-left:47px;
+    /*right:600px;*/
+    /*margin-top: 20px;
+
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+}
+.dugmeIzbrisi{
+
+    width:120px;
+    height:40px;
+    margin-left:47px;
+    margin-top: 20px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+}
+.dugmeTermin{
+    /*width:40px;
+    height:30px;
+    margin:2px;
+    flex-grow:0;
+    flex-shrink: 0;
+    border-radius:50%;
+    border-color:mediumpurple;
+    background-color: antiquewhite;
+    font-style: italic;*/
+    /*width:90px;
+    height:30px;
+    margin-left:5px;
+    border-color:mediumpurple;
+    background-color: antiquewhite;
+    font-style: italic;
+    align-self: center;
+
+}
+.selectSalon,.selectUsluga
+{
+    margin:2px;
+    background-color:rgb(243, 115, 226);
+    font-size:18px;
+    width:243px;
+    height:30px;
+    align-self: center;
+    display:flex;
+    flex-grow:1;
+    flex-shrink: 0;
+
+}
+.selectKozmeticar{
+    margin:2px;
+    background-color:rgb(243,115,226);
+    font-size:15px;
+    width:169px;
+    height:30px;
+    align-self: center;
+    margin-left:25px;
+
+}
+.salon,.usluga,.redTermina,.kozmeticar
+{
+    display:flex;
+    margin:15px;
+    
+    align-self: center;
+
+}
+.inputIme,.inputPrezime,.inputEmail,.inputBrojTelefona
+{
+    background-color:rgb(241, 181, 241);
+    font-weight: normal;
+    text-align: center;
+    margin-left: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.inputIme{
+    margin-left:62px;
+}
+.inputPrezime{
+    margin-left:40px;
+}
+.inputEmail{
+    margin-left:57px;
+}
+.inputBrojTelefona{
+    margin-left:17px;
+}
+.inputVreme{
+    background-color:rgb(241, 181, 241);
+    font-weight: normal;
+    /*text-align: center;
+    margin:18px;*/
+    /*margin-left: 10px;
+}
+.inputBrojTermina{
+    background-color:rgb(241, 181, 241);
+    font-weight: normal;
+    margin-left:18px;
+    /*text-align: center;*/
+    /*margin: auto;*/
+/*}
+/*.inputVremeZaIzmenu{
+    background-color:rgb(241, 181, 241);
+    font-weight: normal;
+    margin-left:18px;
+}
+.inputBrojTerminaZaIzmenu{
+    background-color:rgb(241, 181, 241);
+    font-weight: normal;
+    margin-left:18px;
+}
+#Form2
+{
+
+    /*display:flex;
+    /*position: relative;*/
+    /*flex-direction:column;
+    /*margin-left:-20px;
+    margin-top:-300px;*/
+    /*left:-500px;
+    /*top:-300px;
+    /*align-items: center;
+    align-self:center;*/
+    /*display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    align-self: flex-start;
+    padding-right: 60%;
+    padding-bottom:220%;
+
+    
+    
+    
+    
+    
+    
+   
+    
+}
+.labele{
+    font-size:25px;
+    font-style: italic;
+    color:mediumorchid;
+    margin-top:100px;
+    margin-right:-330px; 
+}
+.dugmici{
+    /*margin-top:-700px;*/
+    /*background-color:rgb(243,115,226) ;
+    margin-top:100px;
+    margin-right:-120px;
+    width:90px;
+    height:30px;
+    font-style: italic;
+}
+.dugmici1{
+    background-color:rgb(243, 192, 241);
+    margin-top:-32px;
+    margin-right:-570px;
+    width:90px;
+    height:30px;
+    font-style: italic;
+}
+
+.Ime,.Prezime,.Email,.BrojTelefona{
+    display:flex;
+    margin:15px;
+    flex-grow:0;
+    flex-shrink:1;
+    align-self: center;
+}
+.labelIme{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center; 
+}
+.labelPrezime{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+}
+.labelEmail{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+}
+.labelBrojTelefona{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+}
+.labelVreme{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+}
+.labelBrojTermina{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+}
+.labelVremeZaIzmenu{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+}
+.labelBrojTerminaZaIzmenu{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+}
+.Vreme{
+    display:flex;
+    margin:15px;
+   
+    align-self: center;
+}
+.BrojTermina{
+    display:flex;
+    margin:15px;
+   
+    align-self: center;
+}
+.VremeZaIzmenu{
+    display:flex;
+    margin:15px;
+   
+    align-self: center;
+}
+.BrojTerminaZaIzmenu{
+    display:flex;
+    margin:18px;
+   
+    align-self: center;
+}
+/*.l1
+{
+    font-size:25px;
+    font-style: italic;
+    text-align: center;
+    color:mediumorchid; 
+}*/
+/*.labelaZaDugmeTermin{
+    margin:3px;
+    font-size:25px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+
+}*/
+body{
+    background-image: url(salonce1.jpg);
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    width: 100%;
+    max-width:800%;
+    /*width: 100%;*/
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.kontSalon
+{
+    
+    display: flex;
+   
+    width:auto;
+    margin:auto;
+    flex-direction: row;
+    flex-wrap:wrap;
+   
+    /*align-self: flex-start;*/
+    
+    
+    
+}
+.Form
+{
+    display:flex;
+    /*width:auto;*/
+    width:100%;
+    height:autopx;
+    margin:auto;
+    flex-wrap:wrap;
+    flex-shrink: 0;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    align-self:center;
+    
+    
+    
+}
+
+.Termini{
+    display: flex;
+   
+    
+}
+.ter{
+    display: flex;
+    width:auto;
+    margin:auto;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-self: center;
+    
+}
+.redTermina1{
+    /*display:flex;
+    flex-wrap:wrap;
+    flex-basis:auto;
+    margin-left:400px;*/
+    align-items: flex-start;
+    height: 30px;
+    
+    min-width: 200px;
+    max-height:800px;
+    
+}
+.redTermina
+{
+    /*display: flex;
+    width:auto;
+    margin:auto;
+    right:-200px;
+    flex-direction: column;
+    min-height: 20px;
+    min-width: 80px;
+    /*flex-wrap:wrap;*/
+    /*align-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top:80px;*/
+    
+    /*display:flex;
+    flex-grow:3;*/
+    display:flex;
+    flex-wrap:wrap;
+    flex-grow:3;
+    max-height:800px;
+    flex-grow: 2;
+    
+    
+    
+}
+@media only screen and(max-width:800px)
+{
+    .redTermina{
+        flex-wrap: wrap;
+    }
+}
+
+.terminKontejner
+{
+   
+    display: flex;
+    /*flex-direction: column;*/
+    height:60px;
+    margin:10px;
+    justify-content: space-around;
+    align-items:flex-start;
+    font-style: italic;
+    /*flex-wrap: wrap;*/
+    border-radius: 10%;
+    
+    /*max-height: 200;*/
+    
+}
+/*.brojSalona
+{
+    width:20px;
+}*/
+
+label1{
+    margin:3px;
+    font-size:25px;
+    font-style: italic;
+    color:mediumorchid;
+    
+}
+.labelSalon
+{
+    margin:4px;
+    font-size:25px;
+    font-style: italic;
+    color:rgb(141, 50, 163);
+    align-self: center;
+}
+.Kozmeticari{
+    /*display:flex;*/
+    margin:3px;
+    font-size:25px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+}
+/*.labelNaslov
+{
+    
+    font-size:25px;
+    font-style: italic;
+    text-align: center;
+    color:mediumorchid;
+    
+}*/
+.labelUsluga
+{
+    /*display:flex;*/
+    margin:0px;
+    font-size:25px;
+    font-style: italic;
+    color:rgb(141, 50, 163);
+    align-self: center;
+}
+.labelKozmeticar
+{
+    margin:3px;
+    font-size:20px;
+    font-style: italic;
+    color:rgb(141, 50, 163);
+    background-color:rgb(243, 192, 241);
+    font-weight:bold;
+    align-self: center;
+}
+.dugmeIzaberiSalon
+{
+    /*display:flex;*/
+    width:120px;
+    height:30px;
+    margin-left:20px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+    align-items: center;
+    align-self: center;
+}
+.dugmeIzaberiUslugu
+{
+    width:120px;
+    height:30px;
+    margin-left:20px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+    align-self: center;
+}
+.l1
+{
+    display:flex;
+    font-size:5px;
+    font-style: italic;
+    
+    color:mediumorchid; 
+}
+.dugmeZakaziteTermin
+{
+    /*display:flex;*/
+    width:120px;
+    height:30px;
+    margin-left:47px;
+    margin-top:5px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+    align-self: center;
+    position:static;
+    /*flex:1 0;*/
+    flex-basis: 200px;
+}
+.dugmeZakazi{
+    width:120px;
+    height:30px;
+    margin-left:47px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+    align-self: center;
+
+}
+.dugmeZameni{
+    width:120px;
+    height:40px;
+    margin-left:20px;
+    /*right:600px;*/
+    margin-top: 20px;
+    margin-left:47px;
+
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+
+}
+.dugmeOtkazi{
+    width:120px;
+    height:30px;
+    margin-left:47px;
+    /*right:600px;*/
+    margin-top: 20px;
+
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+}
+.dugmeIzbrisi{
+
+    width:120px;
+    height:40px;
+    margin-left:47px;
+    margin-top: 20px;
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+}
+.dugmeTermin{
+    /*width:40px;
+    height:30px;
+    margin:2px;
+    flex-grow:0;
+    flex-shrink: 0;
+    border-radius:50%;
+    border-color:mediumpurple;
+    background-color: antiquewhite;
+    font-style: italic;*/
+    width:90px;
+    height:30px;
+    margin-left:5px;
+    border-color:mediumpurple;
+    background-color: antiquewhite;
+    font-style: italic;
+    align-self: center;
+
+}
+
+.selectSalon,.selectUsluga
+{
+    margin:2px;
+    background-color:rgb(243, 115, 226);
+    font-size:18px;
+    width:243px;
+    height:30px;
+    align-self: center;
+
+}
+.selectKozmeticar{
+    margin:2px;
+    background-color:rgb(243,115,226);
+    font-size:15px;
+    width:169px;
+    height:30px;
+    align-self: center;
+    margin-left:25px;
+
+}
+.salon,.usluga,.redTermina
+{
+    display:flex;
+    margin:15px;
+   
+    align-self: center;
+
+}
+.inputIme,.inputPrezime,.inputEmail,.inputBrojTelefona
+{
+    background-color:rgb(241, 181, 241);
+    font-weight: normal;
+    text-align: center;
+    margin-left: auto;
+    
+}
+.inputIme{
+    margin-left:30px;
+    margin-top:10px;
+}
+.inputPrezime{
+    margin-left:30px;
+    margin-top:20px;
+}
+.inputEmail{
+    margin-left:30px;
+    margin-top:10px;
+}
+.inputBrojTelefona{
+    margin-left:30px;
+    /*width:170px;
+    height:20px;*/
+    margin-top:10px;
+}
+.inputVreme{
+    background-color:rgb(241, 181, 241);
+    font-weight: normal;
+    /*text-align: center;
+    margin:18px;*/
+    margin-left: 30px;
+    /*width:170px;
+    height:20px;*/
+    margin-top:10px;
+}
+.inputBrojTermina{
+    background-color:rgb(241, 181, 241);
+    font-weight: normal;
+    margin-left:30px;
+    /*width:170px;
+    height:20px;*/
+    margin-top:10px;
+    /*text-align: center;*/
+    /*margin: auto;*/
+}
+.inputVremeZaIzmenu{
+    background-color:rgb(241, 181, 241);
+    font-weight: normal;
+    align-self:flex-start;
+    margin-top:20px;
+    margin-left: 30px;
+    /*margin-left:-700px;*/
+    /*width:170px;
+    height:20px;*/
+}
+.Forma
+{
+    display:flex;
+    flex-direction: row;
+    /*margin-left:-800px;*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+#Form3{
+    align-items: flex-start;
+    max-width: 200px;
+    /*max-height:120px;*/
+    flex-wrap:wrap;
+    flex-grow: 3;
+    /*flex-grow:2;*/
+    height: 400px;
+    flex-direction: row;
+    
+}
+#Form4{
+    align-items: flex-end;
+    min-width:100px;
+    flex-wrap: wrap;
+    height: 400px;
+    flex-direction: column;
+    
+}
+.redStanje{
+   text-align: center;
+   
+}
+.labele{
+    text-align:center;
+    font-size:25px;
+    font-style: italic;
+    color:rgb(141, 50, 163);
+    margin:3px;
+    margin-left:300px;
+}
+.dugmici{
+    /*margin-top:-700px;*/
+    background-color:rgb(243,115,226) ;
+    margin:5px;
+    margin-left:100px;
+    width:90px;
+    height:30px;
+    font-style: italic;
+}
+.dugmici1{
+    background-color:rgb(243, 192, 241);
+    
+    
+    width:90px;
+    height:30px;
+    font-style: italic;
+}
+
+/*.Ime,.Prezime,.Email,.BrojTelefona{
+    display:flex;
+    margin:15px;
+    
+    align-self: center;
+}*/
+.labelIme{
+    margin:30px;
+    font-size:20px;
+    margin-top:3px;
+    font-style: italic;
+    font-weight:bold;
+    color:rgb(141, 50, 163);
+    background-color:rgb(243, 192, 241);
+    border-radius: 10%;
+    align-self: center; 
+}
+.labelPrezime{
+    margin:5px;
+    font-size:20px;
+    font-style: italic;
+    font-weight:bold;
+    color:rgb(141, 50, 163);
+    background-color:rgb(243, 192, 241);
+    border-radius: 10%;
+    align-self: center;
+}
+.labelEmail{
+    margin:25px;
+    font-size:20px;
+    font-style: italic;
+    font-weight:bold;
+    color:rgb(141, 50, 163);
+    background-color:rgb(243, 192, 241);
+    border-radius: 10%;
+    align-self: center;
+}
+.labelBrojTelefona{
+    margin:3px;
+    font-size:20px;
+    background-color:rgb(243, 192, 241);
+    border-radius: 10%;
+    font-style: italic;
+    font-weight:bold;
+    color:rgb(141, 50, 163);
+    /*align-self: center;*/
+}
+.labelVreme{
+    margin:3px;
+    font-size:20px;
+    font-style: italic;
+    font-weight:bold;
+    color:rgb(141, 50, 163);
+    background-color:rgb(243, 192, 241);
+    border-radius: 10%;
+    align-self: center;
+}
+.labelBrojTermina{
+    margin:3px;
+    font-size:20px;
+    font-style: italic;
+    font-weight:bold;
+    color:rgb(141, 50, 163);
+    background-color:rgb(243, 192, 241);
+    border-radius: 10%;
+    align-self: center;
+}
+.labelVremeZaIzmenu{
+    margin:3px;
+    font-size:15px;
+    font-style: italic;
+    font-weight:bold;
+    color:rgb(141, 50, 163);
+    /*background-color:rgb(243, 192, 241);
+    border-radius: 10%;*/
+    align-self: center;
+}
+.dugmeDrugiSalon{
+    width:120px;
+    height:40px;
+    /*margin-left:20px;*/
+    /*right:600px;*/
+    margin-top: 20px;
+    margin-left:47px;
+
+    background-color:rgb(241, 167, 235);
+    font-style: italic;
+}
+/*.Vreme{
+    display:flex;
+    margin:15px;
+   
+    align-self: center;
+}
+.BrojTermina{
+    display:flex;
+    margin:15px;
+   
+    align-self: center;
+}
+.VremeZaIzmenu{
+    display:flex;
+    margin:15px;
+   
+    align-self: center;
+}*/
+/*.l1
+{
+    font-size:25px;
+    font-style: italic;
+    text-align: center;
+    color:mediumorchid; 
+}*/
+.labelaZaDugmeTermin{
+    margin:3px;
+    font-size:25px;
+    font-style: italic;
+    color:mediumorchid;
+    align-self: center;
+
+}
